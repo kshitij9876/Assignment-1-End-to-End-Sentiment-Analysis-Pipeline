@@ -1,7 +1,6 @@
 # Assignment-1-End-to-End-Sentiment-Analysis-Pipeline
 
-This project implements a sentiment analysis pipeline using the IMDB Movie Reviews dataset. The process includes data acquisition, storage, cleaning, exploration, model training, and serving via a Flask API. The pipeline is deployable on Heroku for production.
-
+This project implements a sentiment analysis pipeline using the IMDB Movie Reviews dataset. The process includes data acquisition, storage, cleaning, exploration, model training, and serving via a Flask API. 
 ---
 
 ## Project Setup
