@@ -43,13 +43,15 @@ This project implements a sentiment analysis pipeline using the IMDB Movie Revie
    This also includes data cleaning, exploratory analysis, and model training. This will generate and save the IMDB_Dataset..db, model.pkl and vectorizer.pkl file.
 
 8. Start the Flask Server
+   
    Start the Flask API to serve the trained model:
    ```bash
    python app.py
    ```
    The server will be accessible at http://localhost:5000.
    
-9. Testing the Endpoint
+10. Testing the Endpoint
+    
    Run the test.py to test the api Endpoint.
    ```bash
    python test.py
