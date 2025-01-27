@@ -52,11 +52,11 @@ This project implements a sentiment analysis pipeline using the IMDB Movie Revie
    
 10. Testing the Endpoint
     
-   Run the test.py to test the api Endpoint.
-   ```bash
-   python test.py
-   ```
-   You can provide your know text to view the sentiment.
+    Run the test.py to test the api Endpoint.
+      ```bash
+      python test.py
+      ```
+    You can provide your know text to view the sentiment.
 
 ---
 
