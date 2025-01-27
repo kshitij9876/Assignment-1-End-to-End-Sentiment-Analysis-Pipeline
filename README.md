@@ -21,7 +21,15 @@ This project implements a sentiment analysis pipeline using the IMDB Movie Revie
 3. Ensure you have the IMDB dataset saved as imdb_reviews.csv in the project directory.
 
 4. Database Setup: The project uses SQLite for data storage. The database (imdb_reviews.db) is automatically created when the script runs.
-
+   ```bash
+   #Schema of the databse
+   CREATE TABLE IMDB_Dataset (
+               id INTEGER PRIMARY KEY AUTOINCREMENT,
+               review_text TEXT NOT NULL,
+               sentiment TEXT NOT NULL
+           );
+   ```
+   
 5. Data Acquisition
    The dataset is expected to be a CSV file (imdb_reviews.csv) containing two columns:
    review: The text of the movie review.
